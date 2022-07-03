@@ -1,0 +1,16 @@
+{
+  "name": "test",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "schema": "openapi-typescript https://events.tornberg.me/order/v1/swagger.json --output order.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch":"3.2.6"
+  }
+}
